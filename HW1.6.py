@@ -9,4 +9,4 @@ day_count = 1
 while b > a:
     a = a * 1.1
     day_count += 1
-print(f'You will reach your goal on %.d day' % day_count)
+print(f'You will reach your goal on day'{day_count}')
