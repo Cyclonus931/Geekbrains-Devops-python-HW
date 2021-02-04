@@ -8,15 +8,17 @@ seasons_dict = {'Winter': (1, 2, 12),
                 'Autumn': (9, 10, 11)}
 month_list = [12, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 
-month = input('Please enter month number >>>')
-if not str.isdigit(month):
+user_input = input('Please enter month number >>>')
+
+if not user_input.isdigit():
     print('Wrong entering')
     exit()
+    
+month = int(user_input)
 
 for key in seasons_dict.keys():
     if month in seasons_dict[key]:
         print(f'Dictionary result >>> {key}')
-print('Dictionary result >>> Wrong number')
 
 
 if month in month_list[0:3]:
@@ -28,4 +30,4 @@ elif month in month_list[6:9]:
 elif month in month_list[9:12]:
     print('List result >>> Autumn')
 else:
-    print('List result >>> Wrong number')
+    print(' Wrong number')
