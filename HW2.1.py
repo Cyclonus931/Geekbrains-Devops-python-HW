@@ -5,4 +5,4 @@
 
 types_list = [True, 25, -18, 'text', b'text', None]
 for types in types_list:
-    print(type(types), end=';')
+    print(type(types))
