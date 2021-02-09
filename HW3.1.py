@@ -1,14 +1,13 @@
 # 1. Реализовать функцию, принимающую два числа (позиционные аргументы) и выполняющую их деление.
 # Числа запрашивать у пользователя, предусмотреть обработку ситуации деления на ноль.
 
-def division(x, y):
-    return x / y
+def division(dividend, divisor):
+    return dividend / divisor
 
-
-dividend = int(input("Enter the dividend >>>"))
-divisor = int(input("Enter the divisor >>>"))
 
 try:
-    print(division(dividend, divisor))
+    print(f'{division(int(input("Enter the dividend >>>")), int(input("Enter the divisor >>>")))}')
 except ZeroDivisionError:
     print("cannot be divided by 0")
+except ValueError:
+    print('Value error')
