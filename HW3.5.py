@@ -15,7 +15,7 @@ def my_sum():
 
         for arg in user_input:
 
-            if arg == "q":
+            if arg.lower() == "q":
                 stop = 1
                 break
             else:
