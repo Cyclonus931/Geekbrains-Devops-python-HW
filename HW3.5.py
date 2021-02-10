@@ -6,7 +6,7 @@
 # то вначале нужно добавить сумму этих чисел к полученной ранее сумме и после этого завершить программу.
 
 def my_sum():
-    summary_numbers = 0
+    final_summery = 0
     stop = 0
 
     while stop == 0:
@@ -25,8 +25,8 @@ def my_sum():
                     print("Wrong Value")
                     break
 
-        summary_numbers = summary_numbers + summary
-        print(f'Your summary result >>> {summary_numbers}')
+        final_summery = final_summery + summary
+        print(f'Your summary result >>> {final_summery}')
 
 
 my_sum()
