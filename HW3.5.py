@@ -6,11 +6,11 @@
 # то вначале нужно добавить сумму этих чисел к полученной ранее сумме и после этого завершить программу.
 
 def my_sum():
-    final_summery = 0
+    total_sum = 0
     stop = 0
 
     while stop == 0:
-        summary = 0
+        temp_sum = 0
         user_input = input('Please enter the numbers with space between them or q for exit >>> ').split()
 
         for arg in user_input:
@@ -20,13 +20,13 @@ def my_sum():
                 break
             else:
                 try:
-                    summary = summary + int(arg)
+                    temp_sum = temp_sum + int(arg)
                 except ValueError:
                     print("Wrong Value")
                     break
 
-        final_summery = final_summery + summary
-        print(f'Your summary result >>> {final_summery}')
+        total_sum = total_sum + temp_sum
+        print(f'Your sum total >>> {total_sum}')
 
 
 my_sum()
