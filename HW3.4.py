@@ -7,7 +7,7 @@
 
 
 def my_func(x, y):
-    return x ** abs(y)
+    return x ** y
 
 
 print(my_func(-2, -8))
@@ -16,9 +16,8 @@ print(my_func(-2, -8))
 def my_func(x, y):
     res = 1
     for z in range(abs(y)):
-        res *= x
+        res /= x
     return res
-
 
 
 print(my_func(2, -8))
