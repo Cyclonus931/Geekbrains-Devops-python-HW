@@ -9,7 +9,7 @@ start_list = []
 for num in range(10):
     start_list.append(random.randrange(0, 10))
 
-print(f'Start_list is >>> {start_list}')
+print(f'Start_list >>> {start_list}')
 
 unique_list = [el for el in start_list if start_list.count(el) == 1]
 
