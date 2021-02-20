@@ -1,0 +1,5 @@
+Orange jsc 180000 95000
+Cellcom ltd 150000 78000
+Pelephone puc 110000 88000
+Hot_telecom jsc 220000 134000
+Golan_telecom prc  66000 82000
