@@ -12,7 +12,7 @@ from re import findall
 subject_hours = {}
 
 with open("HW5.6.txt", encoding='utf8') as my_txt_file:
-    for x in my_txt_file.readlines():
-        subject_hours[x.split(":")[0]] = (sum(int(number) for number in findall(r'\d+', x)))
+    for subject in my_txt_file.readlines():
+        subject_hours[subject.split(":")[0]] = (sum(int(number) for number in findall(r'\d+', subject)))
 
     print(subject_hours)
