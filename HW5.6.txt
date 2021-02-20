@@ -1,0 +1,5 @@
+C++: 20(l) 50.(pr) 20(lab).
+Python: 30(l) - 10(lab)
+Java: - 120(pr) -
+Assembler: 11(l) 22(pr) -
+Angular: - - -
